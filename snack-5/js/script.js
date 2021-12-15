@@ -5,7 +5,7 @@ const emptyArray = [];
 let sumNumbers = 0;
 
 do {
-    const userNumbers= prompt('Inserisci un numero:');
+    userNumbers= prompt('Inserisci un numero:');
     emptyArray.push(userNumbers);
     sumNumbers += parseInt(emptyArray);
 
