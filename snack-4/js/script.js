@@ -7,6 +7,8 @@ let sumNumbers = 0;
 if (userNumber.length === 4) {
     for (i = 0; i < userNumber.length; i++) {
         sumNumbers += parseInt(userNumber[i]);
+
+        console.log(userNumber[i]);
     }
     console.log('La somma delle cifre che compongono il numero scelto è:', sumNumbers);
 } else {
